@@ -1,0 +1,18 @@
+# humanstxt.org/
+# He aquí los humanos responsables por este trabajo
+
+# Equipo
+
+    Diseñador web: Juan "Tim" Rodríguez
+    Twitter: @_TRodz
+
+    Desarrollador Backend: Nander Najera
+    Twitter: @**
+
+    Asistente de desarrollo de juegos: Antoni Samaniego
+    Twitter: @**
+
+# Sitio
+Lenguaje: Español
+Doctype: HTML5
+IDE: Sublime Text 3, MAMP, Chrome Canary
