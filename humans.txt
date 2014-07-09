@@ -1,7 +1,6 @@
-# humanstxt.org/
-# He aquí los humanos responsables por este trabajo
+﻿/* He aquí las personas responsables por este trabajo */
 
-# Equipo
+/* Equipo */
 
     Diseñador web: Juan "Tim" Rodríguez
     Twitter: @_TRodz
@@ -12,7 +11,9 @@
     Asistente de desarrollo de juegos: Antoni Samaniego
     Twitter: @**
 
-# Sitio
+/* Sitio */
+
 Lenguaje: Español
-Doctype: HTML5
+Estándares: HTML5, CSS3, JavaScript.
+Componentes: Modernizr, Normalizr, jQuery, Bootstrap, Font-Awesome, Google Web Fonts.
 IDE: Sublime Text 3, MAMP, Chrome Canary
