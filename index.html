@@ -235,161 +235,103 @@
     <!-- /Portafolio -->
 
     <!-- Contacto -->
-   <?php
+ <form name="contactform" method="post" action="send_form_email.php">
  
-if(isset($_POST['email'])) {
+<table width="450px">
  
-     
+<tr>
  
-    // EDIT THE 2 LINES BELOW AS REQUIRED
+ <td valign="top">
  
-    $email_to = "nander_najera@hotmail.com";
+  <label for="first_name">Nombre *</label>
  
-    $email_subject = "Cotizacion web from mad hyrax";
+ </td>
  
-     
+ <td valign="top">
  
-     
+  <input  type="text" name="first_name" maxlength="50" size="30">
  
-    function died($error) {
+ </td>
  
-        // Mensaje de error, por si meten mal los datoscocks
+</tr>
  
-        echo "Lo lamentamos, pero hubo un error con el mensaje enviado, porfavor vuelva a intentalo";
+<tr>
  
-        echo "Los errores aparecen a continuación.<br /><br />";
+ <td valign="top"">
  
-        echo $error."<br /><br />";
+  <label for="last_name">Apellido *</label>
  
-        echo "Porfavor intentelo de nuevo y arregle los sigientes errores.<br /><br />";
+ </td>
  
-        die();
+ <td valign="top">
  
-    }
+  <input  type="text" name="last_name" maxlength="50" size="30">
  
-     
+ </td>
  
-    // validation expected data exists
+</tr>
  
-    if(!isset($_POST['Nombre']) ||
+<tr>
  
-        !isset($_POST['Apellido']) ||
+ <td valign="top">
  
-        !isset($_POST['Email']) ||
+  <label for="email">Email *</label>
  
-        !isset($_POST['Telefono']) ||
+ </td>
  
-        !isset($_POST['Mensaje'])) {
+ <td valign="top">
  
-        died('Lo lamentamos, pero hubo un error con el mensaje enviado, porfavor vuelva a intentalo.');       
+  <input  type="text" name="email" maxlength="80" size="30">
  
-    }
+ </td>
  
-     
+</tr>
  
-    $first_name = $_POST['Nombre']; // required
+<tr>
  
-    $last_name = $_POST['Apellido']; // required
+ <td valign="top">
  
-    $email_from = $_POST['Email']; // required
+  <label for="telephone">Telefono</label>
  
-    $telephone = $_POST['Telefono']; // not required
+ </td>
  
-    $comments = $_POST['Mensaje']; // required
+ <td valign="top">
  
-     
+  <input  type="text" name="telephone" maxlength="30" size="30">
  
-    $error_message = "";
+ </td>
  
-    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+</tr>
  
-  if(!preg_match($email_exp,$email_from)) {
+<tr>
  
-    $error_message .= 'El email que introdujo parece no ser valido.<br />';
+ <td valign="top">
  
-  }
+  <label for="comments">Mensaje *</label>
  
-    $string_exp = "/^[A-Za-z .'-]+$/";
+ </td>
  
-  if(!preg_match($string_exp,$first_name)) {
+ <td valign="top">
  
-    $error_message .= 'El nombre que introdujo parece no ser valido(no debe llevar simbolos).<br />';
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
  
-  }
+ </td>
  
-  if(!preg_match($string_exp,$last_name)) {
+</tr>
  
-    $error_message .= 'El apellido que introdujo parece no ser valido(no debe llevar simbolos).<br />';
+<tr>
  
-  }
+ <td colspan="2" style="text-align:center">
  
-  if(strlen($comments) < 2) {
+  <input type="submit" value="Submit">   <a href="nander_najera@hotmail.com">Email Form</a>
  
-    $error_message .= 'El mensaje no es valido, debe contener mas de dos palabras.<br />';
+ </td>
  
-  }
+</tr>
  
-  if(strlen($error_message) > 0) {
+</table>
  
-    died($error_message);
- 
-  }
- 
-    $email_message = "Detalles del contacto a continuación.\n\n";
- 
-     
- 
-    function clean_string($string) {
- 
-      $bad = array("content-type","bcc:","to:","cc:","href");
- 
-      return str_replace($bad,"",$string);
- 
-    }
- 
-     
- 
-    $email_message .= "Nombre: ".clean_string($first_name)."\n";
- 
-    $email_message .= "Apellido: ".clean_string($last_name)."\n";
- 
-    $email_message .= "Email: ".clean_string($email_from)."\n";
- 
-    $email_message .= "Telefono: ".clean_string($telephone)."\n";
- 
-    $email_message .= "Mensaje: ".clean_string($comments)."\n";
- 
-     
- 
-     
- 
-// create email headers
- 
-$headers = 'From: '.$email_from."\r\n".
- 
-'Reply-To: '.$email_from."\r\n" .
- 
-'X-Mailer: PHP/' . phpversion();
- 
-@mail($email_to, $email_subject, $email_message, $headers);  
- 
-?>
- 
- 
- 
-<!-- include your own success html here -->
- 
- 
- 
-Gracias por contactar a Madhyrax Studio, nos pondremos en contacto contigo pronto.
- 
- 
- 
-<?php
- 
-}
- 
-?>
+</form>
     <!-- /Contacto -->
 
     <!-- Pie de pagina -->
