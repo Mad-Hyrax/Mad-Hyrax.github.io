@@ -235,161 +235,192 @@
     <!-- /Portafolio -->
 
     <!-- Contacto -->
+<<<<<<< HEAD
    <?php
- 
+
 if(isset($_POST['email'])) {
- 
-     
- 
+
+
+
     // EDIT THE 2 LINES BELOW AS REQUIRED
- 
+
     $email_to = "nander_najera@hotmail.com";
- 
+
     $email_subject = "Cotizacion web from mad hyrax";
- 
-     
- 
-     
- 
+
+
+
+
+
     function died($error) {
- 
+
         // Mensaje de error, por si meten mal los datoscocks
- 
+
         echo "Lo lamentamos, pero hubo un error con el mensaje enviado, porfavor vuelva a intentalo";
- 
+
         echo "Los errores aparecen a continuación.<br /><br />";
- 
+
         echo $error."<br /><br />";
- 
+
         echo "Porfavor intentelo de nuevo y arregle los sigientes errores.<br /><br />";
- 
+
         die();
- 
+
     }
- 
-     
- 
+
+
+
     // validation expected data exists
- 
+
     if(!isset($_POST['Nombre']) ||
- 
+
         !isset($_POST['Apellido']) ||
- 
+
         !isset($_POST['Email']) ||
- 
+
         !isset($_POST['Telefono']) ||
- 
+
         !isset($_POST['Mensaje'])) {
- 
-        died('Lo lamentamos, pero hubo un error con el mensaje enviado, porfavor vuelva a intentalo.');       
- 
+
+        died('Lo lamentamos, pero hubo un error con el mensaje enviado, porfavor vuelva a intentalo.');
+
     }
- 
-     
- 
+
+
+
     $first_name = $_POST['Nombre']; // required
- 
+
     $last_name = $_POST['Apellido']; // required
- 
+
     $email_from = $_POST['Email']; // required
- 
+
     $telephone = $_POST['Telefono']; // not required
- 
+
     $comments = $_POST['Mensaje']; // required
- 
-     
- 
+
+
+
     $error_message = "";
- 
+
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
- 
+
   if(!preg_match($email_exp,$email_from)) {
- 
+
     $error_message .= 'El email que introdujo parece no ser valido.<br />';
- 
+
   }
- 
+
     $string_exp = "/^[A-Za-z .'-]+$/";
- 
+
   if(!preg_match($string_exp,$first_name)) {
- 
+
     $error_message .= 'El nombre que introdujo parece no ser valido(no debe llevar simbolos).<br />';
- 
+
   }
- 
+
   if(!preg_match($string_exp,$last_name)) {
- 
+
     $error_message .= 'El apellido que introdujo parece no ser valido(no debe llevar simbolos).<br />';
- 
+
   }
- 
+
   if(strlen($comments) < 2) {
- 
+
     $error_message .= 'El mensaje no es valido, debe contener mas de dos palabras.<br />';
- 
+
   }
- 
+
   if(strlen($error_message) > 0) {
- 
+
     died($error_message);
- 
+
   }
- 
+
     $email_message = "Detalles del contacto a continuación.\n\n";
- 
-     
- 
+
+
+
     function clean_string($string) {
- 
+
       $bad = array("content-type","bcc:","to:","cc:","href");
- 
+
       return str_replace($bad,"",$string);
- 
+
     }
- 
-     
- 
+
     $email_message .= "Nombre: ".clean_string($first_name)."\n";
- 
+
     $email_message .= "Apellido: ".clean_string($last_name)."\n";
- 
+
     $email_message .= "Email: ".clean_string($email_from)."\n";
- 
+
     $email_message .= "Telefono: ".clean_string($telephone)."\n";
- 
+
     $email_message .= "Mensaje: ".clean_string($comments)."\n";
- 
-     
- 
-     
- 
+
 // create email headers
- 
+
 $headers = 'From: '.$email_from."\r\n".
- 
+
 'Reply-To: '.$email_from."\r\n" .
- 
+
 'X-Mailer: PHP/' . phpversion();
- 
-@mail($email_to, $email_subject, $email_message, $headers);  
- 
+
+@mail($email_to, $email_subject, $email_message, $headers);
+
+
 ?>
- 
- 
- 
+
 <!-- include your own success html here -->
- 
- 
- 
+
 Gracias por contactar a Madhyrax Studio, nos pondremos en contacto contigo pronto.
- 
- 
- 
+
 <?php
- 
+
 }
- 
+
 ?>
+=======
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contáctanos</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form role="form">
+                        <div class="row">
+                            <div class="form-group col-xs-12 floating-label-form-group">
+                                <label>Nombre</label>
+                                <input class="form-control" type="text" name="name" placeholder="Nombre">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-xs-12 floating-label-form-group">
+                                <label>Correo electrónico</label>
+                                <input class="form-control" type="email" name="email" placeholder="Correo electrónico">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-xs-12 floating-label-form-group">
+                                <label>Mensaje</label>
+                                <textarea class="form-control" rows="5" name="message" placeholder="Mensaje"></textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" name="submit" id="submit" value="submit" class="btn btn-lg btn-custom">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+>>>>>>> parent of 53f7ba7... Update index.html
     <!-- /Contacto -->
 
     <!-- Pie de pagina -->
