@@ -48,6 +48,12 @@ h2 {
   font-weight: 700;
 }
 
+#game_div {
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+}
+
 /* Navbar */
 
 .navbar-default .navbar-brand {
@@ -85,12 +91,12 @@ color: #437278;
 /* Custom button */
 
 .btn-custom {
- background: #83B5BA;
+ background: #F84966;
  color: #FFF;
 }
 
 .btn-custom:hover {
-  background: #609FA5;
+  background: #E84763;
   color: #FFF;
 }
 
