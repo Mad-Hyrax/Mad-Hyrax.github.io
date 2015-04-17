@@ -58,16 +58,20 @@ h2 {
 }
 
 .navbar-default .navbar-toggle {
+    color: #fff;
     border-color: #609fa5;
     background-color: #609fa5;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #437278;
+    transition: all .3s;
+    color: #fff;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
+    transition: all .3s;
     background-color: #437278;
 }
 
