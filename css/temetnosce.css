@@ -151,7 +151,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-size: 1.7em;
     line-height: 22px;
-    text-shadow: 0px 0px 5px #646464;
+    text-shadow: 0px 0px 5px #909090;
 }
 
 header .intro-text .intro-heading {
@@ -162,7 +162,7 @@ header .intro-text .intro-heading {
     font-size: 3.3em;
     font-weight: 700;
     line-height: 50px;
-    text-shadow: 0px 0px 5px #646464;
+    text-shadow: 0px 0px 5px #909090;
 }
 
 @media(min-width:768px) {
@@ -441,7 +441,7 @@ i.service-icon {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #efefef;
+    border: 7px solid #e6e6e3;
     border-radius: 100%;
     text-align: center;
     color: #FAFAFA;
