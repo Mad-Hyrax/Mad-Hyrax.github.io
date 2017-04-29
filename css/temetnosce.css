@@ -200,7 +200,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Slabo 27px", serif;
+    --font-family: "Slabo 27px", serif;
     font-size: 22px;
     font-weight: 400;
 }
