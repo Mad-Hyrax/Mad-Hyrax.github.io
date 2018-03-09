@@ -132,7 +132,7 @@ h2 {
 
 header {
     text-align: center;
-    color: #FAFAFA;
+    color: #FFF;
     background-attachment: scroll;
     background-image: url(../img/header.jpg);
     background-position: center center;
@@ -155,7 +155,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-size: 2em;
     line-height: 22px;
-    text-shadow: 0px 0px 5px #909090;
+    text-shadow: 0px 0px 7px #4f4f4f;
 }
 
 header .intro-text .intro-heading {
