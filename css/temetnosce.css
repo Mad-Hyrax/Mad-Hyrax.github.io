@@ -53,7 +53,7 @@ p {
 }
 
 .navbar-default .navbar-collapse {
-  border-color: #ffffff05;
+  border-color: rgba(255, 255, 255, .02); 
 }
 
 .navbar-default .navbar-toggle {
@@ -303,11 +303,9 @@ i.service-icon {
   }
 }
 
-
 /* Portfolio */
 
 #portfolio .portfolio-item {
-  /* right: 0; */
   margin: 0 0 15px;
 }
 
@@ -324,7 +322,7 @@ i.service-icon {
   width: 100%;
   height: 100%;
   opacity: 100;
-  background: #fe365266;
+  background: rgba(254, 54, 82, 0.4);;
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   transition: all ease .5s;
@@ -333,7 +331,7 @@ i.service-icon {
 @media(min-width: 768px) {
   #portfolio .portfolio-item .portfolio-link .caption {
     opacity: 0;
-    background: #fe3652b3;
+    background: rgba(254, 54, 82, 0.7); 
   }
 }
 
