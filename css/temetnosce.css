@@ -248,9 +248,9 @@ section h3.section-subheading {
 /* Custom button */
 
 .btn {
-  font-family: "Montserrat";
-  font-weight: 700;
   text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
 
 .btn-custom {
@@ -760,8 +760,6 @@ footer .footer-below {
   margin: 0;
   font-size: .85em;
   line-height: 1.764705882em;
-  vertical-align: middle;
-  vertical-align: baseline;
   opacity: 0;
   -webkit-transition: top .3s ease, opacity .3s ease;
   -moz-transition: top .3s ease, opacity .3s ease;
