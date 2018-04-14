@@ -41,7 +41,7 @@ p {
 }
 
 .navbar-default .navbar-brand {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Bitter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #FAFAFA;
   font-weight: 700;
 }
@@ -166,7 +166,6 @@ p {
 
 header {
   text-align: center;
-  color: #FFF;
   background-attachment: scroll;
   background-image: url(../img/panama.jpeg);
   background-position: center center;
@@ -182,12 +181,9 @@ header {
 header .intro-text {
   padding-top: 25vh;
   text-shadow: 0px 0px 5px #334a60;
-}
-
-header .intro-text .intro-lead-in {
-  /* margin-bottom: 25px; */
-  font-family: "Bitter", serif;
-  font-size: 2em;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header .intro-text .intro-heading {
@@ -197,6 +193,13 @@ header .intro-text .intro-heading {
   font-size: 3em;
   font-weight: 700;
   line-height: 48px;
+  color: #ffffff;
+}
+
+header .intro-text .intro-lead-in {
+  font-family: "Bitter", serif;
+  font-size: 2em;
+  color: #f0efef;
 }
 
 @media(min-width:768px) {
@@ -248,6 +251,7 @@ section h3.section-subheading {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
+  text-shadow: 0 0 0;
 }
 
 .btn-custom {
