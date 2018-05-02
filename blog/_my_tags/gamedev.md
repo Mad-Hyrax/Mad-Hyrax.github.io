@@ -1,4 +1,0 @@
----
-slug: gamedev
-name: gamedev
----

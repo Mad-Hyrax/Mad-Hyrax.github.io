@@ -1,4 +1,0 @@
----
-slug: thoughts
-name: thoughts
----
