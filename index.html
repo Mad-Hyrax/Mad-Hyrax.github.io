@@ -2,1242 +2,1217 @@
 <html lang="en">
 
 <head>
-  <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-52663114-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="Content-Type" charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Juan Alejandro Morais | Portfolio</title>
-  <meta name="description" content="I'm a game developer based in Auckland, New Zealand with a passion for the world of UI/UX.">
-  <meta name="author" content="Juan Alejandro Morais">
-  <meta name="keywords" content="programming, curriculum, timrodz, tim rodz, temet nosce, juan morais, coding, programming, java, swift, github">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Juan Morais">
-  <link rel="icon" href="favicon.gif" type="image/gif">
-  <!-- Fonts -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat700|Bitter|Nunito:400,600" rel="stylesheet" type="text/css">
-  <!-- CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/temetnosce.min.css" rel="stylesheet">
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-52663114-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- !Google Analytics -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Juan Alejandro Morais | Portfolio</title>
+    <meta name="description" content="I'm a game developer based in Auckland, New Zealand with a passion for the world of UI/UX.">
+    <meta name="author" content="Juan Alejandro Morais">
+    <meta name="keywords" content="programming, curriculum, timrodz, tim rodz, temet nosce, juan morais, coding, programming, java, swift, github">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Juan Morais">
+    <link rel="icon" href="favicon.gif" type="image/gif">
+    <!-- Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat700|Bitter|Nunito:400,600" rel="stylesheet" type="text/css">
+    <!-- CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/temetnosce.min.css" rel="stylesheet">
+    <script src="js/analytics.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body id="page-top" class="index">
-  <!-- Navbar -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand page-scroll" href="#page-top">
-          Temet Nosce
-        </a>
-      </div>
-      <div class="collapse nav-collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="hidden">
-            <a href="#page-top"></a>
-          </li>
-          <li class="page-scroll">
-            <a href="#portfolio">
-              <i class="fa fa-suitcase"></i> Portfolio</a>
-          </li>
-          <li class="page-scroll">
-            <a href="#skills">
-              <i class="fa fa-university"></i> Skills</a>
-          </li>
-          <li class="page-scroll">
-            <a href="#about">
-              <i class="fa fa-graduation-cap"></i> CV</a>
-          </li>
-          <!-- <li class="page-scroll">
-            <a href="#contact">
-              <i class="fa fa-envelope"></i> Contact</a>
-          </li> -->
-          <li class="page-scroll">
-            <a href="http://www.timrodz.com/blog/" target="_blank">
-              <i class="fa fa-comment"></i> Blog</a>
-          </li>
-          <!-- <li class="page-scroll">
-            <a href="index-es.html" hreflang="es" lang="es">
-              <i class="fa fa-globe"></i> ES</a>
-          </li> -->
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar -->
-  <!-- Header -->
-  <header id="top" class="page-scroll">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-heading">Juan Alejandro Morais</div>
-        <div class="intro-lead-in">Programmer, game developer &amp; web designer.</div>
-        <br>
-        <a href="#portfolio" class="btn btn-custom btn-lg">See my work</a>
-      </div>
-    </div>
-  </header>
-  <!-- !Header -->
-  <!-- Portfolio -->
-  <section id="portfolio" class="padding-for-scroll">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Portfolio</h2>
-          <h3 class="section-subheading text-muted">Hi! I'm Juan, a programmer, game developer &amp; web developer specialising in UI/UX and gameplay. I have worked with small teams on numerous projects using Unity3D and Unreal Engine. Here you will find my most relevant work, including co-founding <a href="https://www.panamagamejam.com" target="_blank">Panama Game Jam</a>, working on  <a target="_blank" href="http://inkwarsgame.com/">Ink Wars</a>, <a target="_blank" href="http://audiogamehub.com/">Audio Game Hub</a> and graduate game studio <a href="http://www.afterglow.studio" target="_blank">Afterglow</a>.
-            <!-- Click <a href="index-es.html">here</a> to view this website in Espa&ntilde;ol. -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    Temet Nosce
+                </a>
+            </div>
+            <div class="collapse nav-collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">
+                            <i class="fa fa-suitcase"></i> Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#skills">
+                            <i class="fa fa-university"></i> Skills</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">
+                            <i class="fa fa-graduation-cap"></i> Experience</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="http://www.timrodz.com/blog/" target="_blank">
+                            <i class="fa fa-comment"></i> Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- Header -->
+    <header id="top" class="page-scroll">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading unselectable">Juan Alejandro Morais</div>
+                <div class="intro-lead-in unselectable">Programmer, game developer &amp; web designer.</div>
+                <br>
+                <a href="#portfolio" class="btn btn-custom btn-lg">See my work</a>
+            </div>
+        </div>
+    </header>
+    <!-- !Header -->
+    <!-- Portfolio -->
+    <section id="portfolio" class="padding-for-scroll">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading unselectable">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Hi! I'm Juan, a programmer, game developer &amp; web developer specialising in UI/UX and gameplay. I
+                        have worked with small teams on numerous projects using Unity3D and Unreal Engine. Here you will
+                        find my most relevant work, including co-founding
+                        <a href="https://www.panamagamejam.com" target="_blank">Panama Game Jam</a>, working on
+                        <a target="_blank" href="http://inkwarsgame.com/">Ink Wars</a>,
+                        <a target="_blank" href="http://audiogamehub.com/">Audio Game Hub</a> and graduate game studio
+                        <a href="http://www.afterglow.studio" target="_blank">Afterglow</a>.
+                        <!-- Click <a href="index-es.html">here</a> to view this website in Espa&ntilde;ol. -->
+                        <br>
+                        <br>You can find me on Twitter
+                        <a href="https://twitter.com/timrodz" target="_blank">@timrodz</a>. If you would
+                        like to get in touch, let's connect via
+                        <a href="https://www.linkedin.com/in/timrodz/" target="_blank">LinkedIn</a>. </h3>
+                    <hr> </div>
+            </div>
+            <div class="row">
+                <!-- Projects -->
+                <!-- http://www.afterglow.studio -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+                    <a href="#portfolioModal15" class="portfolio-link" data-toggle="modal" target="_blank">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-gamepad fa-3x"></i>
+                                <h2>Game Studio</h2>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/project_15_afterglow/logo.png" class="img-responsive" alt=""> </a>
+                </div>
+                <!-- Ink Wars -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+                    <a href="#portfolioModal14" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-gamepad fa-3x"></i>
+                                <h2>Game</h2>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/project_14_inkwars/index.jpg" class="img-responsive" alt=""> </a>
+                </div>
+                <!-- El Mandamas -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-gamepad fa-3x"></i>
+                                <h2>Game</h2>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/project_10_elmandamas/index.jpg" class="img-responsive" alt=""> </a>
+                </div>
+                <!-- Audio Game Hub -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-gamepad fa-3x"></i>
+                                <h2>Game</h2>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/project_5_agh/index.jpg" class="img-responsive" alt=""> </a>
+                </div>
+                <!-- PGJAM2017 -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+                    <a href="#portfolioModal13" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-users fa-3x"></i>
+                                <h2>Event</h2>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/project_13_pgjam2017/index.jpg" class="img-responsive" alt=""> </a>
+                </div>
+                <!-- NZGDC17 -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+                    <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-microphone fa-3x"></i>
+                                <h2>Talk</h2>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/project_12_nzgdc17/index.jpg" class="img-responsive" alt=""> </a>
+                </div>
+                <!-- MOA VR -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-gamepad fa-3x"></i>
+                                <h2>Game</h2>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/project_11_moavr/index.jpg" class="img-responsive" alt=""> </a>
+                </div>
+                <!-- SPACE FACE -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-gamepad fa-3x"></i>
+                                <h2>Game</h2>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/project_9_spaceface/index.jpg" class="img-responsive" alt=""> </a>
+                </div>
+                <!-- A Walk In The Park -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-gamepad fa-3x"></i>
+                                <h2>Game</h2>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/project_8_awalkinthepark/index.jpg" class="img-responsive" alt=""> </a>
+                </div>
+                <!-- SUDOKU -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-code fa-3x"></i>
+                                <h2>Project</h2>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/project_3_sudoku/index.jpg" class="img-responsive" alt=""> </a>
+                </div>
+                <!-- Clash -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-gamepad fa-3x"></i>
+                                <h2>Board game</h2>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/project_7_clash/index1.jpg" class="img-responsive" alt=""> </a>
+                </div>
+                <!-- Echeverria -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-html5 fa-3x"></i>
+                                <h2>Website</h2>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/project_4_echeverria/index.jpg" class="img-responsive" alt=""> </a>
+                </div>
+                <!-- Projects -->
+            </div>
+
             <br>
-            <br>You can find me on Twitter
-            <a href="https://twitter.com/timrodz" target="_blank">@timrodz</a>. </h3>
-          <hr> </div>
-      </div>
-      <div class="row">
-        <!-- Projects -->
-        <!-- http://www.afterglow.studio -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
-          <a href="#portfolioModal15" class="portfolio-link" data-toggle="modal" target="_blank">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-gamepad fa-3x"></i>
-                <h2>Game Studio</h2>
-              </div>
-            </div>
-            <img src="img/portfolio/project_15_afterglow/logo.png" class="img-responsive" alt=""> </a>
-        </div>
-        <!-- Ink Wars -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
-          <a href="#portfolioModal14" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-gamepad fa-3x"></i>
-                <h2>Game</h2>
-              </div>
-            </div>
-            <img src="img/portfolio/project_14_inkwars/index.jpg" class="img-responsive" alt=""> </a>
-        </div>
-        <!-- El Mandamas -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
-          <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-gamepad fa-3x"></i>
-                <h2>Game</h2>
-              </div>
-            </div>
-            <img src="img/portfolio/project_10_elmandamas/index.jpg" class="img-responsive" alt=""> </a>
-        </div>
-        <!-- Audio Game Hub -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
-          <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-gamepad fa-3x"></i>
-                <h2>Game</h2>
-              </div>
-            </div>
-            <img src="img/portfolio/project_5_agh/index.jpg" class="img-responsive" alt=""> </a>
-        </div>
-        <!-- PGJAM2017 -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
-          <a href="#portfolioModal13" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-users fa-3x"></i>
-                <h2>Event</h2>
-              </div>
-            </div>
-            <img src="img/portfolio/project_13_pgjam2017/index.jpg" class="img-responsive" alt=""> </a>
-        </div>
-        <!-- NZGDC17 -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
-          <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-microphone fa-3x"></i>
-                <h2>Talk</h2>
-              </div>
-            </div>
-            <img src="img/portfolio/project_12_nzgdc17/index.jpg" class="img-responsive" alt=""> </a>
-        </div>
-        <!-- MOA VR -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
-          <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-gamepad fa-3x"></i>
-                <h2>Game</h2>
-              </div>
-            </div>
-            <img src="img/portfolio/project_11_moavr/index.jpg" class="img-responsive" alt=""> </a>
-        </div>
-        <!-- SPACE FACE -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
-          <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-gamepad fa-3x"></i>
-                <h2>Game</h2>
-              </div>
-            </div>
-            <img src="img/portfolio/project_9_spaceface/index.jpg" class="img-responsive" alt=""> </a>
-        </div>
-        <!-- A Walk In The Park -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
-          <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-gamepad fa-3x"></i>
-                <h2>Game</h2>
-              </div>
-            </div>
-            <img src="img/portfolio/project_8_awalkinthepark/index.jpg" class="img-responsive" alt=""> </a>
-        </div>
-        <!-- SUDOKU -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
-          <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-code fa-3x"></i>
-                <h2>Project</h2>
-              </div>
-            </div>
-            <img src="img/portfolio/project_3_sudoku/index.jpg" class="img-responsive" alt=""> </a>
-        </div>
-        <!-- Clash -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
-          <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-gamepad fa-3x"></i>
-                <h2>Board game</h2>
-              </div>
-            </div>
-            <img src="img/portfolio/project_7_clash/index1.jpg" class="img-responsive" alt=""> </a>
-        </div>
-        <!-- Echeverria -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
-          <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-html5 fa-3x"></i>
-                <h2>Website</h2>
-              </div>
-            </div>
-            <img src="img/portfolio/project_4_echeverria/index.jpg" class="img-responsive" alt=""> </a>
-        </div>
-        <!-- Projects -->
-      </div>
-
-      <br>
-      <br>
-
-    </div>
-  </section>
-  <!-- !Portfolio -->
-  <!-- Skills -->
-  <section id="skills" class="skills">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Skills</h2>
-          <hr> </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-6 col-sm-3 col-md-2 ">
-          <div class="service-item text-center">
-            <i class="service-icon fa fa-code"></i>
-            <h2>Programming</h2>
-            <p> C++, C#, Java
-              <br> Javascript, Lua
-              <br> Git </p>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-3 col-md-2">
-          <div class="service-item text-center">
-            <i class="service-icon fa fa-gamepad"></i>
-            <h2>Game engines</h2>
-            <p> Unity3D
-              <br> Unreal Engine
-              <br> L&ouml;ve2D </p>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-3 col-md-2">
-          <div class="service-item text-center">
-            <i class="service-icon fa fa-html5"></i>
-            <h2>Web design</h2>
-            <p> HTML5/CSS3
-              <br> Wordpress
-              <br> Wix </p>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-3 col-md-2">
-          <div class="service-item text-center">
-            <i class="service-icon fa fa-laptop"></i>
-            <h2>Media editing</h2>
-            <p> Photoshop
-              <br> InDesign
-              <br> Premiere
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-3"></div>
-        <div class="col-xs-6 col-sm-3 col-md-2">
-          <div class="service-item text-center">
-            <i class="service-icon fa fa-headphones"></i>
-            <h2>Music</h2>
-            <p> Electric bass
-              <br> Guitar
-              <br> Keyboard </p>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-3  col-md-2">
-          <div class="service-item text-center">
-            <i class="service-icon fa fa-language"></i>
-            <h2>Languages</h2>
-            <p> Spanish (native)
-              <br> English (fluent)
-              <br> German (basic)
-              <br> </p>
-          </div>
-        </div>
-      </div>
-      <br>
-    </div>
-  </section>
-  <!-- !Skills -->
-  <!-- About me (CV) -->
-  <section id="about" class="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Curriculum Vitae</h2>
-          <h3 class="section-subheading text-muted">Welcome to my life experience section. You can find me on LinkedIn as
-            <a href="https://www.linkedin.com/in/timrodz/" target="_blank">timrodz</a>. </h3>
-          <div class="form-group col-xs-12">
-            <button id="downloadCV" name="cvform" type="submit" value="Submit" onclick="window.location.href='https://docs.google.com/document/d/1KvlXUrDIvcNWzFyoxURfTmvFBrtfjAFoUmRQnbcC43A/export?format=pdf'" class="btn btn-custom btn-lg">Download r&eacute;sum&eacute;</button>
-
-            <hr>
-          </div>
+            <br>
 
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
+    </section>
+    <!-- !Portfolio -->
+    <!-- Skills -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading unselectable">Skills</h2>
+                    <hr> </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 col-md-2 ">
+                    <div class="service-item text-center">
+                        <i class="service-icon fa fa-code"></i>
+                        <h2>Programming</h2>
+                        <p> C++, C#, Java
+                            <br> Javascript, Lua
+                            <br> Git </p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-2">
+                    <div class="service-item text-center">
+                        <i class="service-icon fa fa-gamepad"></i>
+                        <h2>Game engines</h2>
+                        <p> Unity3D
+                            <br> Unreal Engine
+                            <br> L&ouml;ve2D </p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-2">
+                    <div class="service-item text-center">
+                        <i class="service-icon fa fa-html5"></i>
+                        <h2>Web design</h2>
+                        <p> HTML5/CSS3
+                            <br> Wordpress
+                            <br> Wix </p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-2">
+                    <div class="service-item text-center">
+                        <i class="service-icon fa fa-laptop"></i>
+                        <h2>Media editing</h2>
+                        <p> Photoshop
+                            <br> InDesign
+                            <br> Premiere
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
+                <div class="col-xs-6 col-sm-3 col-md-2">
+                    <div class="service-item text-center">
+                        <i class="service-icon fa fa-headphones"></i>
+                        <h2>Music</h2>
+                        <p> Electric bass
+                            <br> Guitar
+                            <br> Keyboard </p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3  col-md-2">
+                    <div class="service-item text-center">
+                        <i class="service-icon fa fa-language"></i>
+                        <h2>Languages</h2>
+                        <p> Spanish (native)
+                            <br> English (fluent)
+                            <br> German (basic)
+                            <br> </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+    <!-- !Skills -->
+    <!-- About me (CV) -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading unselectable">Experience</h2>
+                    <h3 class="section-subheading text-muted">Life is a journey. In this section, you will find all the adventures I've taken part of.</h3>
+                    <div class="form-group col-xs-12">
+                        <button id="downloadCV" name="cvform" type="submit" value="Submit" onclick="window.location.href='https://docs.google.com/document/d/1KvlXUrDIvcNWzFyoxURfTmvFBrtfjAFoUmRQnbcC43A/export?format=pdf'"
+                            class="btn btn-custom btn-lg">Download r&eacute;sum&eacute;</button>
 
-          <!-- CURRICULUM BEGIN -->
-          <h2 class="text-center"> Experience</h2>
-          <ul class="timeline">
-            <!-- NZGDC17 -->
-            <li>
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/nzgdc17.jpg" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>September 2017</h4>
-                  <h4 class="subheading">
-                    <strong>New Zealand Game Developers Conference</strong>, New Zealand
-                    <br> Speaker
-                  </h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Gave a speech titled "Game Jams and Community Building", based on my previous experience with
-                    <a target="_blank" href="https://www.panamagamejam.com/">Panama Game Jam</a>.</p>
-                </div>
-              </div>
-            </li>
-            <!-- Media Hive Limited -->
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/inkwars.png" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>July 2017 - November 2017</h4>
-                  <h4 class="subheading">
-                    <strong>Media Hive Limited</strong>, New Zealand
-                    <br> Unity Developer
-                  </h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Collaborated in a team environment to implement a Network Versus mode &amp; UI/UX for
-                    <a target="_blank" href="http://inkwarsgame.com/">Ink Wars</a>.</p>
-                </div>
-              </div>
-            </li>
-            <!--  -->
-            <li>
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/pgjam.png" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>October 2016 - Present</h4>
-                  <h4 class="subheading">
-                    <strong>Panama Game Jam</strong>, Panam&aacute;
-                    <br> Co-Founder
-                  </h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted"> Organised conferences, workshops, and meetups promoting the game development industry, including two consecutive Global Game Jams.</p>
-                </div>
-              </div>
-            </li>
-            <!-- Audio Game Hub -->
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/aghub.png" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>September 2016 - January 2017</h4>
-                  <h4 class="subheading">
-                    <strong>Sonnar Interactive</strong>, New Zealand
-                    <br> Game Developer
-                  </h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Thoroughly researched and applied marketing strategies in Audio Game Hub’s successful Kickstarter campaign. Redesigned the website for
-                    <a target="_blank" href="http://www.audiogamehub.com/">Audio Game Hub</a>.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <!-- Veronica -->
-            <li>
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/ancship.png" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>January 2016 - July 2016</h4>
-                  <h4 class="subheading">
-                    <strong>AncShip Corp</strong>, Panam&aacute;
-                    <br> Website Designer &amp; Consultant
-                  </h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Designed a website proactively based on the company's target market and products. </p>
-                </div>
-              </div>
-            </li>
-            <!-- Humberto Echeverría -->
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/humbertoe.png" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>May 2015 - November 2015</h4>
-                  <h4 class="subheading">
-                    <strong>Humberto Echeverr&iacute;a &amp; Asociados</strong>, Panam&aacute;
-                    <br> Website Designer &amp; Consultant
-                  </h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Worked hand to hand with the client to completely redesign their website. Results were delivered constantly and influenced by feedback given.</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <hr>
-          <h2 class="text-center"> Studies</h2>
-          <ul class="timeline">
-            <!-- Media Design School -->
-            <li>
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/mds.png" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>July 2015 - June 2018</h4>
-                  <h4>
-                    <strong>Media Design School</strong>, Auckland, New Zealand</h4>
-                  <h4> Bachelor of Software Engineering </h4>
-                  <p class="text-muted">Game Programming.</p>
-                </div>
-              </div>
-            </li>
-            <!-- UTP -->
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/utp.png" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>January 2014 - July 2015</h4>
-                  <h4 class="subheading">
-                    <strong>Universidad Tecnológica de Panam&aacute;</strong>, Panama City, Panam&aacute;</h4>
-                  <h4> Bachelor of Computer Engineering</h4>
-                  <p class="text-muted">Finished two semesters when I moved over to New Zealand.</p>
-                </div>
-              </div>
-            </li>
-            <!-- High school -->
-            <li>
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/school.png" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2001 - 2013</h4>
-                  <h4 class="subheading">
-                    <strong>Colegio Agustiniano Nuestra Se&ntilde;ora del Buen Consejo</strong>, Herrera, Panam&aacute;</h4>
-                  <h4> Primary and high school </h4>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <hr>
-          <h2 class="text-center"> Volunteering</h2>
-          <ul class="timeline">
-            <!-- NZGDC 2016 -->
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/nzgda.png" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>September 2016</h4>
-                  <h4 class="subheading">
-                    <strong>Crew assistant at the New Zealand Game Developers Conference (NZGDC)</strong>
-                  </h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Catered for participants of the event and provided quality solutions for their queries.</p>
-                </div>
-              </div>
-            </li>
-            <!-- Game training instructor -->
-            <li>
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/gametrainingpty.png" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>January 2016</h4>
-                  <h4 class="subheading">
-                    <strong>Advanced 2D gaming topics course lecturer</strong>
-                  </h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Helped participants with their projects and contributed to the preparation of the course.</p>
-                </div>
-              </div>
-            </li>
-            <!-- Carpe Diem -->
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/carpediem.png" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>October 2014</h4>
-                  <h4 class="subheading"> <strong>Carpe Diem Game exhibition organizer</strong> </h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Organized a game exhibition event and collaborated with peers to please the audience with a memorable experience.</p>
-                </div>
-              </div>
-            </li>
-            <!-- Social labour at Oria -->
-            <li>
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/oria.jpg" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>December 2013</h4>
-                  <h4 class="subheading"> <strong>Social labor at a developing village</strong> </h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Worked, alongside others at building the scaffoldings of a church in the village of Oria, Panam&aacute;.
-                  </p>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <!-- CURRICULUM END -->
-          <br>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- !About me (CV) -->
-  <!-- Contact form  -->
-  <!-- <section id="contact" class="padding-for-scroll">
-    <div id="container" class="container">
-      <form id="form2" name="form2" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://timrodz.wufoo.com/forms/m14nu4t70pv3x3a/#public">
-        <div id="header" class="info row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">contact me</h2>
-            <h3 class="text-muted">Want to get in touch? I'd love to hear from you!</h3>
-          </div>
-          
-          <div class="col-lg-12 text-center">
-            <ul class="list-inline">
-              <li class="list-item">
-                <a target="_blank" href="https://twitter.com/timrodz" class="btn-social btn-outline">
-                  <i class="fa fa-lg fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://www.linkedin.com/in/timrodz/" class="btn-social btn-outline">
-                  <i class="fa fa-fw fa-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://github.com/timrodz" class="btn-social btn-outline">
-                  <i class="fa fa-fw fa-github"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-12"><br></div>
-        <div class="col-lg-8 col-lg-offset-2">
-          <div id="foli14" class="row control-group">
-            <div class="form-group col-xs-12 floating-label-form-group controls">
-              <label id="title14" for="Field14">Name</label>
-              <input id="Field14" name="Field14" type="text" class="form-control" placeholder="Name" required data-validation-required-message="Please enter your name.">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div id="foli3" class="row control-group">
-            <div class="form-group col-xs-12 floating-label-form-group controls">
-              <label id="title3" for="Field3">Email Address</label>
-              <input id="Field3" name="Field3" type="email" spellcheck="false" class="form-control" placeholder="Email Address" required data-validation-required-message="Please enter your email address.">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div id="foli4" class="row control-group">
-            <div class="form-group col-xs-12 floating-label-form-group controls">
-              <label id="title4" for="Field4">Message</label>
-              <textarea id="Field4" name="Field4" onkeyup="" rows="5" spellcheck="false" class="form-control" placeholder="Message" required data-validation-required-message="Please enter a message."></textarea>
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <br>
-          <div id="success"></div>
-          <div class="row">
-            <div class="form-group col-xs-12">
-              <button id="saveForm" name="saveForm" type="submit" value="Submit" class="btn btn-custom btn-lg">Send</button>
-            </div>
-          </div>
-          <li class="hide">
-            <input type="hidden" id="idstamp" name="idstamp" value="Qny0moxfmu1x4bNdMCfvou6+v31Z/mCMyd41zcZW4tc=" /> </li>
-        </div>
-      </form>
-    </div>
-    <br>
-  </section> -->
-  <!-- !Contact form  -->
-  <!-- Footer -->
-  <footer class="text-center">
-    <div class="footer-above">
-      <div class="container">
-        <div class="row">
-          <div class="footer-col col-sm-4 col-md-4">
-            <h2 class="section-heading">Juan Alejandro Morais</h2>
-            <p> Personal mail: <br> timrodz (at) icloud (dot) com </p>
-          </div>
-          <div class="footer-col col-sm-5 col-md-4">
-            <h2 class="section-heading"> Social </h2>
-            <ul class="list-inline">
-              <li>
-                <a target="_blank" href="https://twitter.com/timrodz" class="btn-social btn-outline">
-                  <i class="fa fa-fw fa-lg fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://www.linkedin.com/in/timrodz/" class="btn-social btn-outline">
-                  <i class="fa fa-fw fa-lg fa-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://github.com/timrodz" class="btn-social btn-outline">
-                  <i class="fa fa-fw fa-lg fa-github"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-col col-sm-3 col-md-4">
-            <h2 class="section-heading">About</h2>
-            <p> This website is hosted via
-              <a target="_blank" href="https://github.com/">Github</a>, made with HTML/CSS, <a target="_blank" href="http://getbootstrap.com">Bootstrap</a> and <a href="https://jquery.com/" target="_blank">jQuery</a>.
-            </p>
-          </div>
-        </div>
+                        <hr>
+                    </div>
 
-      </div>
-    </div>
-    <div class="footer-below">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">Copyright &copy; 2018 Juan Alejandro Morais.</div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- !Footer -->
-  <!-- PORTFOLIO MODALS -->
-  <!-- Modal - Pong -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Pong</h2>
-              <hr>
-              <p>This was a project where I had to develop a game in Java. I decided to stay as native as possible. It was tough, I must admit, since I worked on my own and had to come with ideas for hard-coded animations and the hand-made art.
-                <strong>To check the repository
-                  <a target="_blank" href="https://github.com/Timrodz/Java-Pong">click here</a>!</strong>
-              </p>
-              <img src="img/portfolio/project_1_pong/index.png" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_1_pong/About.png" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_1_pong/howto.png" class="img-responsive center-block" alt="">
-              <ul class="list-inline item-details">
-                <li>Repository:
-                  <strong>
-                    <a target="_blank" href="https://github.com/TRodz/Java-Pong">Click here</a>
-                  </strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal - Sudoku -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Lua Sudoku Solver</h2>
-              <hr>
-              <p> I had the task of developing a Sudoku that could be solved by an AI. This AI could also check if the current solution was solveable and or correct/incorrect.
-                <strong>Check out the repository
-                  <a target="_blank" href="https://github.com/timrodz/Sudoku_Solver-lua">
-                    here</a>.</strong>
-              </p>
-              <img src="img/portfolio/project_3_sudoku/Sudoku001.gif" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_3_sudoku/Sudoku002.gif" class="img-responsive center-block" alt="">
-              <ul class="list-inline item-details">
-                <li>
-                  <h3>Repository:
-                    <strong>
-                      <a target="_blank" href="https://github.com/timrodz/Sudoku_Solver-lua">click here</a>.
-                    </strong>
-                  </h3>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- CURRICULUM BEGIN -->
+                    <ul class="timeline">
+                        <!-- PikPok -->
+                        <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="img/about/pikpok.png" alt=""> </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>July 2018 - Present</h4>
+                                        <h4 class="subheading">
+                                            <strong>PikPok</strong>, New Zealand
+                                            <br> Programmer
+                                        </h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">I am in the core development team of 
+                                            <a target="_blank" href="http://pikpok.com/games/i-am-monster/">I Am Monster</a>, PikPok's latest release.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        <!-- NZGDC17 -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/nzgdc17.jpg" alt=""> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>September 2017</h4>
+                                    <h4 class="subheading">
+                                        <strong>New Zealand Game Developers Conference</strong>, New Zealand
+                                        <br> Speaker
+                                    </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Gave a speech titled "Game Jams and Community Building", based on my previous experience
+                                        with
+                                        <a target="_blank" href="https://www.panamagamejam.com/">Panama Game Jam</a>.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Media Hive Limited -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/inkwars.png" alt=""> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>July 2017 - November 2017</h4>
+                                    <h4 class="subheading">
+                                        <strong>Media Hive Limited</strong>, New Zealand
+                                        <br> Unity Developer
+                                    </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Collaborated in a team environment to implement a Network Versus mode &amp; UI/UX for
+                                        <a target="_blank" href="http://inkwarsgame.com/">Ink Wars</a>.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Panama Game Jam -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/pgjam.png" alt=""> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>October 2016 - Present</h4>
+                                    <h4 class="subheading">
+                                        <strong>Panama Game Jam</strong>, Panam&aacute;
+                                        <br> Co-Founder
+                                    </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"> Organised conferences, workshops, and meetups promoting the game development industry,
+                                        including two consecutive Global Game Jams.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Audio Game Hub -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/aghub.png" alt=""> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>September 2016 - January 2017</h4>
+                                    <h4 class="subheading">
+                                        <strong>Sonnar Interactive</strong>, New Zealand
+                                        <br> Game Developer
+                                    </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Thoroughly researched and applied marketing strategies in Audio Game Hub’s successful
+                                        Kickstarter campaign. Redesigned the website for
+                                        <a target="_blank" href="http://www.audiogamehub.com/">Audio Game Hub</a> with Wordpress.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Veronica -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/ancship.png" alt=""> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>January 2016 - July 2016</h4>
+                                    <h4 class="subheading">
+                                        <strong>AncShip Corp</strong>, Panam&aacute;
+                                        <br> Website Designer &amp; Consultant
+                                    </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Designed a website proactively based on the company's target market and products with Wordpress. </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Humberto Echeverría -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/humbertoe.png" alt=""> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>May 2015 - November 2015</h4>
+                                    <h4 class="subheading">
+                                        <strong>Humberto Echeverr&iacute;a &amp; Asociados</strong>, Panam&aacute;
+                                        <br> Website Designer &amp; Consultant
+                                    </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Worked hand to hand with the client to completely redesign their website. Results were
+                                        delivered constantly and influenced by feedback given.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <hr>
+                    <h2 class="text-center"> Studies</h2>
+                    <ul class="timeline">
+                        <!-- Media Design School -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/mds.png" alt=""> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>July 2015 - June 2018</h4>
+                                    <h4>
+                                        <strong>Media Design School</strong>, Auckland, New Zealand</h4>
+                                    <h4> Bachelor of Software Engineering </h4>
+                                    <p class="text-muted">Specialised in Game Programming.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- UTP -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/utp.png" alt=""> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>January 2014 - July 2015</h4>
+                                    <h4 class="subheading">
+                                        <strong>Universidad Tecnológica de Panam&aacute;</strong>, Panama City, Panam&aacute;</h4>
+                                    <h4> Bachelor of Computer Engineering</h4>
+                                    <p class="text-muted">Finished two semesters when I moved over to New Zealand.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- High school -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/school.png" alt=""> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2001 - 2013</h4>
+                                    <h4 class="subheading">
+                                        <strong>Colegio Agustiniano Nuestra Se&ntilde;ora del Buen Consejo</strong>, Herrera, Panam&aacute;</h4>
+                                    <h4> Primary and high school </h4>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <hr>
+                    <h2 class="text-center"> Volunteering</h2>
+                    <ul class="timeline">
+                        <!-- NZGDC 2016 -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/nzgda.png" alt=""> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>September 2016</h4>
+                                    <h4 class="subheading">
+                                        <strong>Crew assistant at the New Zealand Game Developers Conference (NZGDC)</strong>
+                                    </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Catered for participants of the event and provided quality solutions for their queries.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Game training instructor -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/gametrainingpty.png" alt=""> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>January 2016</h4>
+                                    <h4 class="subheading">
+                                        <strong>Advanced 2D gaming topics course lecturer</strong>
+                                    </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Helped participants with their projects and contributed to the preparation of the course.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Carpe Diem -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/carpediem.png" alt=""> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>October 2014</h4>
+                                    <h4 class="subheading">
+                                        <strong>Carpe Diem Game exhibition organiser</strong>
+                                    </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Organised a game exhibition event and collaborated with peers to please the audience
+                                        with a memorable experience.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Social labour at Oria -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/oria.jpg" alt=""> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>December 2013</h4>
+                                    <h4 class="subheading">
+                                        <strong>Social labour at a developing village</strong>
+                                    </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Worked, alongside others at building the scaffoldings of a church in the village of Oria,
+                                        Panam&aacute;.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- CURRICULUM END -->
+                    <br>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal - Humberto Echeverria -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Humberto Echeverría &amp; asociados</h2>
-              <hr>
-              <p>I made this bilingual website for a very famous architect in Panama. His name is Humberto Echeverria, and this project was a very challenging yet fun task, overall: a very satisfactory and insightful experience.
-                <strong>Check out the website
-                  <a target="_blank" href="http://www.echeverriaasoc.net/en/index.html">
-                    here</a>.</strong>
-              </p>
-              <img src="img/portfolio/project_4_echeverria/2.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_4_echeverria/4.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_4_echeverria/5.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_4_echeverria/6.jpg" class="img-responsive center-block" alt="">
-              <ul class="list-inline item-details">
-                <li>
-                  <h3>Website URL:
-                    <strong>
-                      <a target="_blank" href="http://www.echeverriaasoc.net/en/index.html">click here</a>.
-                    </strong>
-                  </h3>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+    </section>
+    <!-- !About me (CV) -->
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-sm-12">
+                        <h2 class="section-heading unselectable">Let's connect</h2>
+                        <ul class="list-inline">
+                            <li>
+                                <a target="_blank" href="https://twitter.com/timrodz" class="btn-social btn-outline">
+                                    <i class="fa fa-fw fa-lg fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.linkedin.com/in/timrodz/" class="btn-social btn-outline">
+                                    <i class="fa fa-fw fa-lg fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://github.com/timrodz" class="btn-social btn-outline">
+                                    <i class="fa fa-fw fa-lg fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal - Audio Game Hub -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Audio Game Hub</h2>
-              <hr>
-              <p>I worked in the Kickstarter project for a group of students who make games that cater to a specific audience: people with visual impairments (including blind).
-                <br>
-                <br>
-                <strong>Check out the website and the game by
-                  <a target="_blank" href="http://www.audiogamehub.com/">
-                    clicking here</a>.</strong>
-              </p>
-              <img src="img/portfolio/project_5_agh/1.png" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_5_agh/2.png" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_5_agh/3.png" class="img-responsive center-block" alt="">
-              <ul class="list-inline item-details">
-                <li>
-                  <h3>Website URL:
-                    <strong>
-                      <a target="_blank" href="http://www.audiogamehub.com/">click here</a>.
-                    </strong>
-                  </h3>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 unselectable">Copyright &copy; 2018 Juan Alejandro Morais.</div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal - Panama Game Jam 2016 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Panama Game Jam 2016</h2>
-              <hr>
-              <p>I organized the first Panama Game Jam and co-hosted it with fellow game developers. We got sponsorship from Panama's
-                <a href="http://ciudaddelsaber.org/en"> City Of Knowledge</a> and the overall result from the participants was overwhelming.
-                <br>
-                <br>
-                <strong>Check the resulting games
-                  <a target="_blank" href="https://itch.io/jam/PGJAM2016"> here</a>.</strong>
-              </p>
-              <img src="img/portfolio/project_6_pgjam2016/1.jpeg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_6_pgjam2016/2.jpeg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_6_pgjam2016/3.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_6_pgjam2016/index.jpg" class="img-responsive center-block" alt="">
-              <ul class="list-inline item-details">
-                <li>
-                  <h3>Jam site:
-                    <strong>
-                      <a target="_blank" href="https://itch.io/jam/PGJAM2016">click here</a>.
-                    </strong>
-                  </h3>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+    </footer>
+    <!-- !Footer -->
+    <!-- PORTFOLIO MODALS -->
+    <!-- Modal - Pong -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal - Clash! -->
-  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Clash!</h2>
-              <hr>
-              <p>As the result of a game design class, we were given the task of designing and creating a board game. We decided to create a simple yet interesting prototype for a card game, where two different factions (or types of attack) go hand in hand, strategies need to be devised and the usage of cards need to be well thought.
-                <br>
-                <br> This is the first iteration of it, and contains 83 cards of which 32 are of magic and tech attack, 16 of magic and tech defense, 20 hearts and 15 creature (ability) cards.
-                <br>
-                <br> The game was very well received amongst the lecturers of my University and showcased in their open days.
-              </p>
-              <img src="img/portfolio/project_7_clash/logo@0,5x.png" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_7_clash/cards.png" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_7_clash/1.jpg" class="img-responsive center-block" alt="">
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Pong</h2>
+                            <hr>
+                            <p>This was a project where I had to develop a game in Java. I decided to stay as native as possible.
+                                It was tough, I must admit, since I worked on my own and had to come with ideas for hard-coded
+                                animations and the hand-made art.
+                                <strong>To check the repository
+                                    <a target="_blank" href="https://github.com/Timrodz/Java-Pong">click here</a>!</strong>
+                            </p>
+                            <img src="img/portfolio/project_1_pong/index.png" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_1_pong/About.png" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_1_pong/howto.png" class="img-responsive center-block" alt="">
+                            <ul class="list-inline item-details">
+                                <li>Repository:
+                                    <strong>
+                                        <a target="_blank" href="https://github.com/TRodz/Java-Pong">Click here</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!-- Modal - A Walk In The Park -->
-  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>A walk in the park</h2>
-              <hr>
-              <p> This game was the product of research on the mental health topic that revolves around video games and other media industries. We decided to develop a Virtual Reality (Oculus Rift) experience where the user would walk around a park and read conversations held by popular game characters and their real life equivalents. It demonstrated the wrong display of mental health due to stigmas and stereotypes that are daily included in today's industries.
-                <br>
-                <br> Visit the game page by
-                <strong>
-                  <a target="_blank" href="https://afiston.itch.io/a-walk-in-the-park">clicking here</a>
-                </strong>.
-              </p>
-              <img src="img/portfolio/project_8_awalkinthepark/1.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_8_awalkinthepark/2.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_8_awalkinthepark/3.jpg" class="img-responsive center-block" alt="">
-              <ul class="list-inline item-details">
-                <li>
-                  <h3>Download the game through
-                    <strong>
-                      <a target="_blank" href="https://afiston.itch.io/a-walk-in-the-park">itch.io</a>.
-                    </strong>
-                  </h3>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+    <!-- Modal - Sudoku -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
             </div>
-          </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Lua Sudoku Solver</h2>
+                            <hr>
+                            <p> I had the task of developing a Sudoku that could be solved by an AI. This AI could also check
+                                if the current solution was solveable and or correct/incorrect.
+                                <strong>Check out the repository
+                                    <a target="_blank" href="https://github.com/timrodz/Sudoku_Solver-lua">
+                                        here</a>.</strong>
+                            </p>
+                            <img src="img/portfolio/project_3_sudoku/Sudoku001.gif" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_3_sudoku/Sudoku002.gif" class="img-responsive center-block" alt="">
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <h3>Repository:
+                                        <strong>
+                                            <a target="_blank" href="https://github.com/timrodz/Sudoku_Solver-lua">click here</a>.
+                                        </strong>
+                                    </h3>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!-- Modal - Space -->
-  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
+    <!-- Modal - Humberto Echeverria -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Humberto Echeverría &amp; asociados</h2>
+                            <hr>
+                            <p>I made this bilingual website for a very famous architect in Panama. His name is Humberto Echeverria,
+                                and this project was a very challenging yet fun task, overall: a very satisfactory and insightful
+                                experience.
+                                <strong>Check out the website
+                                    <a target="_blank" href="http://www.echeverriaasoc.net/en/index.html">
+                                        here</a>.</strong>
+                            </p>
+                            <img src="img/portfolio/project_4_echeverria/2.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_4_echeverria/4.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_4_echeverria/5.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_4_echeverria/6.jpg" class="img-responsive center-block" alt="">
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <h3>Website URL:
+                                        <strong>
+                                            <a target="_blank" href="http://www.echeverriaasoc.net/en/index.html">click here</a>.
+                                        </strong>
+                                    </h3>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Space Face</h2>
-              <hr>
-              <p> Developed in a week, this prototype was a really fun experience because it was our first class project as a team and we all had more experience with game development at the time. I worked on UI, game feel, sound effects and directing the whole project.
-                <br>
-                <br> Visit the game page by
-                <strong>
-                  <a target="_blank" href="https://timrodz.itch.io/space-face">clicking here</a>
-                </strong>.
-              </p>
-              <img src="img/portfolio/project_9_spaceface/index.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_9_spaceface/2.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_9_spaceface/3.jpg" class="img-responsive center-block" alt="">
-              <ul class="list-inline item-details">
+    </div>
+    <!-- Modal - Audio Game Hub -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Audio Game Hub</h2>
+                            <hr>
+                            <p>I worked in the Kickstarter project for a group of students who make games that cater to a specific
+                                audience: people with visual impairments (including blind).
+                                <br>
+                                <br>
+                                <strong>Check out the website and the game by
+                                    <a target="_blank" href="http://www.audiogamehub.com/">
+                                        clicking here</a>.</strong>
+                            </p>
+                            <img src="img/portfolio/project_5_agh/1.png" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_5_agh/2.png" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_5_agh/3.png" class="img-responsive center-block" alt="">
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <h3>Website URL:
+                                        <strong>
+                                            <a target="_blank" href="http://www.audiogamehub.com/">click here</a>.
+                                        </strong>
+                                    </h3>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal - Panama Game Jam 2016 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Panama Game Jam 2016</h2>
+                            <hr>
+                            <p>I organised the first Panama Game Jam and co-hosted it with fellow game developers. We got sponsorship
+                                from Panama's
+                                <a href="http://ciudaddelsaber.org/en"> City Of Knowledge</a> and the overall result from the participants was overwhelming.
+                                <br>
+                                <br>
+                                <strong>Check the resulting games
+                                    <a target="_blank" href="https://itch.io/jam/PGJAM2016"> here</a>.</strong>
+                            </p>
+                            <img src="img/portfolio/project_6_pgjam2016/1.jpeg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_6_pgjam2016/2.jpeg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_6_pgjam2016/3.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_6_pgjam2016/index.jpg" class="img-responsive center-block" alt="">
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <h3>Jam site:
+                                        <strong>
+                                            <a target="_blank" href="https://itch.io/jam/PGJAM2016">click here</a>.
+                                        </strong>
+                                    </h3>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal - Clash! -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Clash!</h2>
+                            <hr>
+                            <p>As the result of a game design class, we were given the task of designing and creating a board
+                                game. We decided to create a simple yet interesting prototype for a card game, where two
+                                different factions (or types of attack) go hand in hand, strategies need to be devised and
+                                the usage of cards need to be well thought.
+                                <br>
+                                <br> This is the first iteration of it, and contains 83 cards of which 32 are of magic and tech
+                                attack, 16 of magic and tech defense, 20 hearts and 15 creature (ability) cards.
+                                <br>
+                                <br> The game was very well received amongst the lecturers of my University and showcased in
+                                their open days.
+                            </p>
+                            <img src="img/portfolio/project_7_clash/logo@0,5x.png" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_7_clash/cards.png" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_7_clash/1.jpg" class="img-responsive center-block" alt="">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal - A Walk In The Park -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>A walk in the park</h2>
+                            <hr>
+                            <p> This game was the product of research on the mental health topic that revolves around video games
+                                and other media industries. We decided to develop a Virtual Reality (Oculus Rift) experience
+                                where the user would walk around a park and read conversations held by popular game characters
+                                and their real life equivalents. It demonstrated the wrong display of mental health due to
+                                stigmas and stereotypes that are daily included in today's industries.
+                                <br>
+                                <br> Visit the game page by
+                                <strong>
+                                    <a target="_blank" href="https://afiston.itch.io/a-walk-in-the-park">clicking here</a>
+                                </strong>.
+                            </p>
+                            <img src="img/portfolio/project_8_awalkinthepark/1.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_8_awalkinthepark/2.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_8_awalkinthepark/3.jpg" class="img-responsive center-block" alt="">
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <h3>Download the game through
+                                        <strong>
+                                            <a target="_blank" href="https://afiston.itch.io/a-walk-in-the-park">itch.io</a>.
+                                        </strong>
+                                    </h3>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal - Space -->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Space Face</h2>
+                            <hr>
+                            <p> Developed in a week, this prototype was a really fun experience because it was our first class
+                                project as a team and we all had more experience with game development at the time. I worked
+                                on UI, game feel, sound effects and directing the whole project.
+                                <br>
+                                <br> Visit the game page by
+                                <strong>
+                                    <a target="_blank" href="https://timrodz.itch.io/space-face">clicking here</a>
+                                </strong>.
+                            </p>
+                            <img src="img/portfolio/project_9_spaceface/index.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_9_spaceface/2.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_9_spaceface/3.jpg" class="img-responsive center-block" alt="">
+                            <ul class="list-inline item-details">
 
-                <li>
-                  <h3>Play the game on
-                    <strong>
-                      <a target="_blank" href="https://timrodz.itch.io/space-face">itch.io</a>.
-                    </strong>
-                  </h3>
-                </li>
+                                <li>
+                                    <h3>Play the game on
+                                        <strong>
+                                            <a target="_blank" href="https://timrodz.itch.io/space-face">itch.io</a>.
+                                        </strong>
+                                    </h3>
+                                </li>
 
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!-- Modal - El Mandamas -->
-  <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>El Mandamás</h2>
-              <hr>
-              <p> This game was developed for the Ludum Dare 38 online game jam, where participants have up to 72 hours to create a working prototype. The theme was "Small world" so I decided to make a game about Panama's geography since it's a very small country.
-                <br>
-                <br> The game also got featured in "The best free games of the week" post by
-                <strong>
-                  <a target="_blank" href="https://www.rockpapershotgun.com">Rock Paper Shotgun</a>
-                </strong> which can be accessed
-                <strong>
-                  <a target="_blank" href="https://www.rockpapershotgun.com/2017/04/29/best-free-games-week-pc-2/">clicking here</a>
-                </strong>.
-                <br>
-                <br> Visit the game page by
-                <strong>
-                  <a target="_blank" href="https://timrodz.itch.io/el-mandamas">clicking here</a>
-                </strong>.
-              </p>
-              <img src="img/portfolio/project_10_elmandamas/1.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_10_elmandamas/2.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_10_elmandamas/3.jpg" class="img-responsive center-block" alt="">
-              <ul class="list-inline item-details">
+    <!-- Modal - El Mandamas -->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>El Mandamás</h2>
+                            <hr>
+                            <p> This game was developed for the Ludum Dare 38 online game jam, where participants have up to
+                                72 hours to create a working prototype. The theme was "Small world" so I decided to make
+                                a game about Panama's geography since it's a very small country.
+                                <br>
+                                <br> The game also got featured in "The best free games of the week" post by
+                                <strong>
+                                    <a target="_blank" href="https://www.rockpapershotgun.com">Rock Paper Shotgun</a>
+                                </strong> which can be accessed
+                                <strong>
+                                    <a target="_blank" href="https://www.rockpapershotgun.com/2017/04/29/best-free-games-week-pc-2/">clicking here</a>
+                                </strong>.
+                                <br>
+                                <br> Visit the game page by
+                                <strong>
+                                    <a target="_blank" href="https://timrodz.itch.io/el-mandamas">clicking here</a>
+                                </strong>.
+                            </p>
+                            <img src="img/portfolio/project_10_elmandamas/1.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_10_elmandamas/2.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_10_elmandamas/3.jpg" class="img-responsive center-block" alt="">
+                            <ul class="list-inline item-details">
 
-                <li>
-                  <h3>Play the game on
-                    <strong>
-                      <a target="_blank" href="https://timrodz.itch.io/el-mandamas">itch.io</a>.
-                    </strong>
-                  </h3>
-                </li>
+                                <li>
+                                    <h3>Play the game on
+                                        <strong>
+                                            <a target="_blank" href="https://timrodz.itch.io/el-mandamas">itch.io</a>.
+                                        </strong>
+                                    </h3>
+                                </li>
 
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!-- Modal - Moa VR -->
-  <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Moa VR</h2>
-              <hr>
-              <p> Moa VR is an HTC Vive game that features New Zealand's exctinct, wingless bird: the Moa. In the game, you are the Moa's keeper and get to learn about it as it progresses. The gameplay is very short yet engaging. I was in charge of bringing UX to life, since most common practices are to be changed when developing for Virtual Reality.
-              </p>
-              <img src="img/portfolio/project_11_moavr/index.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_11_moavr/1.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_11_moavr/2.jpg" class="img-responsive center-block" alt="">
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+    <!-- Modal - Moa VR -->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal - NZGDC17 Talk -->
-  <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>NZGDC17</h2>
-              <hr>
-              <p> I had the great opportunity to give a talk at the New Zealand Game Developer's Conference of 2017 (
-                <a href="http://www.nz-gdc.com/">NZGDC17</a>) regarding Game Jams and Community Building, topics I've become really passionate about during the last years.
-              </p>
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="responsive-item" src="https://www.youtube.com/embed/8j7PCRIOHMs" allowfullscreen></iframe>
-              </div>
-              <br>
-              <br>
-              <br>
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Moa VR</h2>
+                            <hr>
+                            <p> Moa VR is an HTC Vive game that features New Zealand's exctinct, wingless bird: the Moa. In the
+                                game, you are the Moa's keeper and get to learn about it as it progresses. The gameplay is
+                                very short yet engaging. I was in charge of bringing UX to life, since most common practices
+                                are to be changed when developing for Virtual Reality.
+                            </p>
+                            <img src="img/portfolio/project_11_moavr/index.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_11_moavr/1.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_11_moavr/2.jpg" class="img-responsive center-block" alt="">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!-- Modal - PANAMA GAME JAM 2017 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Panamá Game Jam 2017</h2>
-              <hr>
-              <p> I co-hosted this Game Jam and had lots of fun! Our lovely sponsors from the
-                <a href="http://www.panama.inter.edu/">INTER University of Panama</a> got us T-Shirts and awesome souvenirs!
-              </p>
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="responsive-item" src="https://www.youtube.com/embed/UDf3qEPWCGU" allowfullscreen></iframe>
-              </div>
-              <ul class="list-inline item-details">
-                <li>
-                  <h3>Visit our website for more information:
-                    <strong>
-                      <a target="_blank" href="https://www.panamagamejam.com/">panamagamejam.com</a>.
-                    </strong>
-                  </h3>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+    <!-- Modal - NZGDC17 Talk -->
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal - INK WARS -->
-  <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Ink Wars</h2>
-              <hr>
-              <p> I worked as a Unity Developer for this game, developing the Network Versus mode through an MVC architecture. We had to create an asset bundle system that didn't slow down the game due to the fact that it had 27 characters at the time. My main tasks lied inside the Visual &amp; UI/UX environments.
-                <br>
-                <br> Visit the game page by
-                <strong>
-                  <a target="_blank" href="http://www.inkwarsgame.com/">clicking here</a>
-                </strong>. </p>
-              <img src="img/portfolio/project_14_inkwars/index.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_14_inkwars/2.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_14_inkwars/3.jpg" class="img-responsive center-block" alt="">
-              <ul class="list-inline item-details">
-                <li>
-                  <h3>Play the game by visiting
-                    <strong>
-                      <a target="_blank" href="http://www.inkwarsgame.com/">their website</a>.
-                    </strong>
-                  </h3>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>NZGDC17</h2>
+                            <hr>
+                            <p> I had the great opportunity to give a talk at the New Zealand Game Developer's Conference of
+                                2017 (
+                                <a href="http://www.nz-gdc.com/">NZGDC17</a>) regarding Game Jams and Community Building, topics I've become really passionate
+                                about during the last years.
+                            </p>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="responsive-item" src="https://www.youtube.com/embed/8j7PCRIOHMs" allowfullscreen></iframe>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!-- Modal - Afterglow -->
-  <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Afterglow</h2>
-              <hr>
-              <p> Afterglow is a graduate game development studio based in Auckland, New Zealand. I am the lead Unity programmer, and also do PR &amp; Game Design. Our latest projects include Blood Tale, a dark, stealth based, first-person horror that uncovers the truth about a mysterious disappearance.
-                <br>
-                <br> Visit the afterglow website by
-                <strong>
-                  <a target="_blank" href="http://www.afterglow.studio">clicking here</a>
-                </strong>.</p>
-              <img src="img/portfolio/project_15_afterglow/blood_tale_0.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_15_afterglow/blood_tale_1.jpg" class="img-responsive center-block" alt="">
-              <img src="img/portfolio/project_15_afterglow/blood_tale_2.jpg" class="img-responsive center-block" alt="">
-              <ul class="list-inline item-details">
-                <li>
-                  <h3>Visit the afterglow website
-                    <strong>
-                      <a target="_blank" href="http://www.afterglow.studio">here</a>.
-                    </strong>
-                  </h3>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close</button>
+    <!-- Modal - PANAMA GAME JAM 2017 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
             </div>
-          </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Panamá Game Jam 2017</h2>
+                            <hr>
+                            <p> I co-hosted this Game Jam and had lots of fun! Our lovely sponsors from the
+                                <a href="http://www.panama.inter.edu/">INTER University of Panama</a> got us T-Shirts and awesome souvenirs!
+                            </p>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="responsive-item" src="https://www.youtube.com/embed/UDf3qEPWCGU" allowfullscreen></iframe>
+                            </div>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <h3>Visit our website for more information:
+                                        <strong>
+                                            <a target="_blank" href="https://www.panamagamejam.com/">panamagamejam.com</a>.
+                                        </strong>
+                                    </h3>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!-- !Portfolio Modals End Here -->
-  <!-- JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-  <!-- Javascript plugins-->
-  <script src="js/classie-dist.js"></script>
-  <script src="js/cbpAnimatedHeader-dist.js"></script>
-  <script src="js/SmoothNavigation-dist.js"></script>
+    <!-- Modal - INK WARS -->
+    <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Ink Wars</h2>
+                            <hr>
+                            <p> I worked as a Unity Developer for this game, developing the Network Versus mode through an MVC
+                                architecture. We had to create an asset bundle system that didn't slow down the game due
+                                to the fact that it had 27 characters at the time. My main tasks lied inside the Visual &amp;
+                                UI/UX environments.
+                                <br>
+                                <br> Visit the game page by
+                                <strong>
+                                    <a target="_blank" href="http://www.inkwarsgame.com/">clicking here</a>
+                                </strong>. </p>
+                            <img src="img/portfolio/project_14_inkwars/index.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_14_inkwars/2.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_14_inkwars/3.jpg" class="img-responsive center-block" alt="">
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <h3>Play the game by visiting
+                                        <strong>
+                                            <a target="_blank" href="http://www.inkwarsgame.com/">their website</a>.
+                                        </strong>
+                                    </h3>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal - Afterglow -->
+    <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Afterglow</h2>
+                            <hr>
+                            <p> Afterglow is a graduate game development studio based in Auckland, New Zealand. I am the lead
+                                Unity programmer, and also do PR &amp; Game Design. Our latest projects include Blood Tale,
+                                a dark, stealth based, first-person horror that uncovers the truth about a mysterious disappearance.
+                                <br>
+                                <br> Visit the afterglow website by
+                                <strong>
+                                    <a target="_blank" href="http://www.afterglow.studio">clicking here</a>
+                                </strong>.</p>
+                            <img src="img/portfolio/project_15_afterglow/blood_tale_0.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_15_afterglow/blood_tale_1.jpg" class="img-responsive center-block" alt="">
+                            <img src="img/portfolio/project_15_afterglow/blood_tale_2.jpg" class="img-responsive center-block" alt="">
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <h3>Visit the afterglow website
+                                        <strong>
+                                            <a target="_blank" href="http://www.afterglow.studio">here</a>.
+                                        </strong>
+                                    </h3>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- !Portfolio Modals End Here -->
+    <!-- JavaScript libs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie-dist.js"></script>
+    <script src="js/cbpAnimatedHeader-dist.js"></script>
+    <script src="js/SmoothNavigation-dist.js"></script>
 </body>
 
 </html>
